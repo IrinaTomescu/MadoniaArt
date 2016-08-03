@@ -1,4 +1,4 @@
-package ro.madonia.controller;
+package ro.madonia.WebZ.controller;
 
 import java.io.IOException;
 
@@ -7,8 +7,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import ro.madonia.entities.User;
-import ro.madonia.service.LoginService;
+import ro.madonia.WebZ.entities.User;
+import ro.madonia.WebZ.service.LoginService;
 
 /**
  * Created by irina on 7/28/2016.

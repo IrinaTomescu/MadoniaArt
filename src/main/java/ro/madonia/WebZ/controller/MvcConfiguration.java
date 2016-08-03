@@ -1,4 +1,4 @@
-package ro.madonia.controller;
+package ro.madonia.WebZ.controller;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,21 +10,21 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-@ComponentScan(basePackages="controller")
+@ComponentScan(basePackages="ro.madonia")
 @EnableWebMvc
 public class MvcConfiguration extends WebMvcConfigurerAdapter {
 
 	@Bean
 	public ViewResolver getViewResolver(){
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-		resolver.setPrefix("/WEB-INF/");
+		resolver.setPrefix("/WEB-INF/jsps/");
 		resolver.setSuffix(".jsp");
 		return resolver;
 	}
 	
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+		registry.addResourceHandler("/includes/**").addResourceLocations("/includes/");
 	}
 
 }

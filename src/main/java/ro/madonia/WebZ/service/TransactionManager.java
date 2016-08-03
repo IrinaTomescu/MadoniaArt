@@ -1,4 +1,4 @@
-package ro.madonia.service;
+package ro.madonia.WebZ.service;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

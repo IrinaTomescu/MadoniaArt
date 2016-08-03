@@ -1,12 +1,12 @@
-package ro.madonia.dao;
+package ro.madonia.WebZ.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import ro.madonia.entities.User;
-import ro.madonia.service.TransactionManager;
+import ro.madonia.WebZ.entities.User;
+import ro.madonia.WebZ.service.TransactionManager;
 
 public class UserDao {
 	public User getUserByUsername(String username) throws SQLException {

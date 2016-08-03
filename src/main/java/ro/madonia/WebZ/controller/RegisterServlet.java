@@ -1,4 +1,4 @@
-package ro.madonia.controller;
+package ro.madonia.WebZ.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;

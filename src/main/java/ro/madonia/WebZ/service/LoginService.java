@@ -1,8 +1,8 @@
-package ro.madonia.service;
+package ro.madonia.WebZ.service;
 
-import ro.madonia.dao.UserDao;
-import ro.madonia.entities.User;
-import ro.madonia.service.TransactionManager;
+import ro.madonia.WebZ.dao.UserDao;
+import ro.madonia.WebZ.entities.User;
+import ro.madonia.WebZ.service.TransactionManager;
 
 /**
  * Created by irina on 7/28/2016.

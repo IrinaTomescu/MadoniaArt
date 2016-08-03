@@ -1,4 +1,4 @@
-package ro.madonia.entities;
+package ro.madonia.WebZ.entities;
 
 /**
  * Created by irina on 7/28/2016.
